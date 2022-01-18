@@ -1,10 +1,14 @@
 import React from 'react';
 import Header from './header/header.js';
+import Body from './Body/Body.js';
 import './App.css';
 
 function App() {
   return (
-    <Header />
+    <div>
+      <Header />
+      <Body />
+    </div>
   );
 }
 
