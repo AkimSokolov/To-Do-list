@@ -1,0 +1,70 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    padding: 0 10px;
+    border-bottom: solid 2px rgb(224, 220, 220);
+}
+
+.logo {
+    height: 40px;
+    background-color: rgb(164, 205, 51);
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.navbar {
+    width:100%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.link:hover {
+    color: rgb(164, 205, 51);
+    border-bottom: 2px solid rgb(164, 205, 51);
+    padding-bottom: 3px;
+}
+
+.board {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.search-input {
+    border-radius: 30px;
+    border: solid 2px rgb(224, 220, 220);
+    background-image: url(search.png);
+    background-position-x: 95%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: auto 90%;
+    margin-right: 10px;
+    height: 23px;
+}
+
+.header-btn {
+    color: #fff;
+    border-radius:100%;
+    border-color: transparent;
+    background: linear-gradient(45deg, rgba(175,48,65,1) 0%, rgba(241,97,28,1) 100%);
+}
