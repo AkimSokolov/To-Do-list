@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "787d20d7-7052-48cc-af95-b75d2f7ea398": {
+      "ProjectGuid": "787d20d7-7052-48cc-af95-b75d2f7ea398",
+      "DisplayName": "TicketsAPI",
+      "ColorIndex": 0
+    },
+    "230e02dd-7ac1-4194-a05a-7783c119b2f6": {
+      "ProjectGuid": "230e02dd-7ac1-4194-a05a-7783c119b2f6",
+      "DisplayName": "TicketsDAL",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
