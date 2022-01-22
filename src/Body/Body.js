@@ -1,7 +1,11 @@
-import React from 'react';
+import React , { useState } from 'react';
 import './Body.css';
 
 function Body(props){
+    const [tasksInBacklog, setTasksInBacklog] = useState([]);
+    const [tasksInReady, setTasksInReady] = useState([]);
+    const [tasksInProgress, setTasksInProgress] = useState([]);
+    const [tasksInDone, setTasksInDone] = useState([]);
     
     return(
         <div className='task-board'>
@@ -33,6 +37,7 @@ function Dashboard(props) {
 }
 
 function TaskColumn(props) {
+
     return(
         <div className='task-column-item'>
             <p>{props.desc}</p>
