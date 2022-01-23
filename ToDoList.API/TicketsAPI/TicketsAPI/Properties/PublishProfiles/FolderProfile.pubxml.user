@@ -6,5 +6,16 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
   <PropertyGroup>
     <_PublishTargetUrl>D:\EXK_Courses_DZ\TDLprj\ToDoList.API\TicketsAPI\TicketsAPI\bin\Release\net6.0\publish\</_PublishTargetUrl>
     <History>True|2022-01-22T22:11:54.8067051Z;True|2022-01-23T00:03:07.3181537+02:00;</History>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
   </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="TicketsAPIContext">
+      <Value>Data Source=.%3bDatabase=TicketsAPIContext%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="TicketsAPI.Data.TicketsAPIContext">
+      <Value>Data Source=.%3bDatabase=TicketsAPIContext%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </EFMigrations>
+  </ItemGroup>
 </Project>
